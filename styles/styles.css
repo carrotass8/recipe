@@ -35,7 +35,7 @@ body {
     background-color: var(--White);
 }
 
-.container .img-omelette {
+.container .eggs {
     border-radius: 1rem;
     width: 100%;
     display: flex;
