@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --White: hsl(0, 0%, 100%);
+
+    --Stone100: hsl(30, 54%, 90%);
+    --Stone150: hsl(30, 18%, 87%);
+    --Stone600: hsl(30, 10%, 34%);
+    --Stone900: hsl(24, 5%, 18%);
+
+    --Brown800: hsl(14, 45%, 36%);
+
+    --Rose800: hsl(332, 51%, 32%);
+    --Rose50: hsl(330, 100%, 98%);
+    --fontOutfit: "Outfit";
+    --fontYoung: "Young Serif"
+}
+
+body {
+    background-color: var(--Rose50);
+    display: flex;
+    place-content: center;
+    align-items: center;
+
+}
+
+.container {
+    border-radius: 1rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px 30px 30px 30px;
+    width: 650px;
+    background-color: var(--White);
+}
+
+.container .img-omelette {
+    border-radius: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0;
+}
+
+.container h1 {
+    font-family: var(--fontYoung);
+    font-size: 2rem;
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+
+.desc {
+    margin-top: 5px;
+}
+
+.container h2 {
+    color: var(--Brown800);
+    font-weight: 400;
+}
+
+.container h3 {
+    color: var(--Rose800);
+}
+
+.container p {
+    font: var(--fontOutfit);
+    color: var(--Stone600);
+    font-size: 1rem;
+}
+
+.container table {
+    color: var(--Stone600);
+}
+
+.container li {
+    color: var(--Stone600);
+}
+
+.preparation {
+    font-family: var(--fontOutfit);
+    border-radius: 0.5rem;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    background-color: var(--Rose50);
+}
+
+.indigrients {
+    font-family: var(--fontYoung);
+    margin: 0;
+}
+
+.indigrients ul {
+    padding-left: 15px;
+    font-family: var(--fontOutfit);
+}
+
+.instructions {
+    font-family: var(--fontOutfit);
+}
+
+.instructions h2 {
+    font-family: var(--fontYoung);
+    font-weight: 300;
+}
+
+.instructions ol {
+    padding-left: 15px;
+}
+
+.preparation ul li:not(:last-child) {
+    margin-bottom: 0.5rem;
+}
+
+.preparation h3 {
+    margin-bottom: 10px;
+}
+
+.tableindigrients {
+    font-family: var(--fontYoung);
+}
+
+.tableindigrients h2 {
+    font-weight: 300;
+}
+
+.tableindigrients p {
+    font-family: var(--fontOutfit);
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td {
+    font-family: var(--fontOutfit);
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+table tr {
+    border-bottom: 2px solid grey;
+    border-width: thin;
+}
+
+.table1,
+.table2,
+.table3,
+.table4 {
+    color: var(--Brown800);
+    font-weight: 600;
+}
